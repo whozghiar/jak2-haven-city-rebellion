@@ -1,4 +1,4 @@
-# Crimson Blue Guard & City Insurrection — Jak 2
+# Haven City Rebellion — Jak 2
 
 <p align="center">
   <img src="https://img.shields.io/badge/OpenGOAL-Mod-blue.svg" alt="OpenGOAL Mod">
@@ -28,7 +28,7 @@ Adds the **Blue Crimson Guard** as its own standalone entity (`crimson-blue-guar
 |---|---|
 | `jak2/features/blueguard-traffic` | Base: `crimson-blue-guard` entity, faithful combat AI, ambient city-traffic spawning, modular hook layer |
 | `jak2/features/city-peaceful` | Neutral blue patrol **squads** — formation nav, mutual defense, friendly-fire immunity |
-| **`jak2/features/city-insurrection`** *(this branch)* | Full **territorial civil war** — district zoning, autonomous inter-faction combat, 60-guard density, artillery grenade launchers, alert-free zones |
+| **`jak2/features/city-insurrection`** *(this mod)* | Full **territorial civil war** — district zoning, autonomous inter-faction combat, 22-guard war zones, artillery grenade launchers, alert-free zones |
 | `jak2/features/blueguard` | Integration of both modes (mutually exclusive at runtime via debug menu) |
 
 ---
@@ -52,14 +52,14 @@ When enabled:
 - **Territorial District Zoning:**
   - **Slums (`ctysluma/b/c`):** Insurgent stronghold. 100% blue rebel guards, no police gunships, alarm-free haven.
   - **Loyalist Districts:** Baron Praxis control. 100% red and yellow loyalist police with vanilla enforcement.
-  - **War Zone (Industrial `ctyinda/b` by default, or selectable via Debug Menu / All City):** An active battlefield where opposing factions hunt and engage each other on sight.
+  - **War Zone (Industrial `ctyinda/b` by default, or any mix of districts toggled in the `War zones` submenu, up to All City):** An active battlefield where opposing factions hunt and engage each other on sight.
 - **Autonomous Inter-Faction Warfare:** Blue and red/yellow guards engage at long range (~150m scan) with no police pursuit or wanted level triggered against Jak.
 - **Civilian Evacuation:** Civilians, civilian hovercrafts, and ambient metalheads are automatically purged from the conflict zone to dedicate memory and process slots to the firefight.
 - **Dynamic Faction Balancing (70% Loyalists / 30% Insurgents):** Street-level real-time balancing ensures loyalist forces maintain tactical superiority over the rebel forces.
 
-### 💥 Maximum Guard Density (60 Active Combatants)
-- **All Three Guard Pools Mobilized:** Exploits the OpenGOAL traffic engine architecture to its limit by mobilizing Pool 4 (`crimson-guard-0`), Pool 6 (`crimson-guard-1`), and Pool 7 (`crimson-guard-2`) at 20 guards each.
-- **Ultra-Dense Spacing (`inv-density-factor 0.1`):** Spawns combatants 50x denser than vanilla across sidewalks and streets.
+### 💥 War-Zone Guard Density (22 Active Combatants)
+- **Two Guard Pools Mobilized:** Pool 6 (`crimson-guard-1`) at 12 guards and Pool 4 (`crimson-guard-0`) at 10. Pool 7 (`crimson-guard-2`) can never spawn in Haven City, so it stays off.
+- **Dense Spacing (`inv-density-factor 1.25`):** The engine's own dense preset, spawning combatants 4x denser than vanilla (5.0) across sidewalks and streets.
 - **Continuous Battlefield Reinforcement (`fast-spawn #t`):** War zone losses are replenished in real-time frame-by-frame.
 
 ### 🎯 Overhauled Ranged Arsenal & Melee Minimization
@@ -68,7 +68,7 @@ When enabled:
 - **Minimized Melee Attempts:**
   - Guards no longer abandon shooting to perform awkward rifle-butt swings.
   - The vanilla 10-meter shooting lockout is eliminated; guards fire at any range, including point-blank.
-  - Initial reaction delay reduced from 1.0–3.0s down to 0.2–0.5s for immediate fire.
+  - Initial reaction delay reduced from 1.0–3.0s down to 0.4–1.0s for faster fire.
   - Standoff flanking positioning: guards maintain an arc of ~6.5m (rifle) to ~9m (grenade launcher).
   - Guard bumping collisions in dense streets no longer trigger melee states.
 
