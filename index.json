@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "sourceName": "haven-city-rebellion Source",
-  "lastUpdated": "2026-09-19T17:37:20Z",
+  "lastUpdated": "2026-10-02T01:39:37Z",
   "mods": {
     "haven-city-rebellion": {
       "displayName": "haven-city-rebellion",
@@ -34,8 +34,8 @@
           }
         }
       ],
-      "coverArtUrl": "https://raw.githubusercontent.com/whozghiar/jak-project/jak2/features/haven-city-rebellion/docs/img/mod/mod_cover.png",
-      "thumbnailArtUrl": "https://raw.githubusercontent.com/whozghiar/jak-project/jak2/features/haven-city-rebellion/docs/img/mod/mod_cover.png"
+      "coverArtUrl": "https://raw.githubusercontent.com/whozghiar/jak-project/mod-repo/jak2-haven-city-rebellion/docs/img/mod/mod_cover.png",
+      "thumbnailArtUrl": "https://raw.githubusercontent.com/whozghiar/jak-project/mod-repo/jak2-haven-city-rebellion/docs/img/mod/mod_cover.png"
     }
   },
   "texturePacks": {
