@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/OpenGOAL-Mod-blue.svg" alt="OpenGOAL Mod">
   <img src="https://img.shields.io/badge/Game-Jak%202-orange.svg" alt="Target Game">
-  <img src="https://img.shields.io/badge/Branch-jak2%2Ffeatures%2Fcity--insurrection-green.svg" alt="Branch">
   <img src="https://img.shields.io/badge/Status-Work%20in%20Progress-yellow.svg" alt="Work in Progress">
   <img src="https://img.shields.io/badge/AI--assisted-Modding-purple.svg" alt="AI Assisted">
 </p>
@@ -20,6 +19,9 @@
 > ### ⚠️ Work in Progress — Stability Notice
 > This mod is currently under **active development**. While fully playable, players and testers may encounter **occasional unexpected game crashes** (e.g. `exit status 5` / process allocation limits) due to the high density of concurrent combatants, process slot exhaustion under sustained heavy battle, or level streaming crossfades.
 > Detailed health telemetry is periodically printed to the console terminal to help monitor heap memory and active process slots.
+
+> [!NOTE]
+> This mod moved from the `jak2/features/haven-city-rebellion` branch of [whozghiar/jak-project](https://github.com/whozghiar/jak-project) to this repository. Earlier releases stay installable from the launcher catalog.
 
 ## 📖 Overview
 Adds the **Blue Crimson Guard** as its own standalone entity (`crimson-blue-guard`) with high-fidelity combat AI and custom textures, alongside the **City Insurrection** mode: a full-scale territorial civil war across Haven City between Baron Praxis's loyalist forces and the rebel blue guard insurgent faction.

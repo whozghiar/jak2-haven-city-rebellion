@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "sourceName": "haven-city-rebellion Source",
+  "sourceName": "Haven City Rebellion Source",
   "lastUpdated": "2026-10-02T01:39:37Z",
   "mods": {
     "haven-city-rebellion": {
-      "displayName": "haven-city-rebellion",
+      "displayName": "Haven City Rebellion",
       "description": "Adds the **Blue Crimson Guard** as its own standalone entity (`crimson-blue-guard`) with high-fidelity combat AI and custom textures, alongside the **City Insurrection** mode: a full-scale territorial civil war across Haven City between Baron Praxis's loyalist forces and the rebel blue guard insurgent faction.",
       "authors": [
         "whozghiar"
@@ -16,7 +16,7 @@
       "supportedGames": [
         "jak2"
       ],
-      "websiteUrl": "https://github.com/whozghiar/jak-project/tree/jak2/features/haven-city-rebellion",
+      "websiteUrl": "https://github.com/whozghiar/jak2-haven-city-rebellion",
       "versions": [
         {
           "version": "1.0.0",
