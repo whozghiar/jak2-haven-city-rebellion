@@ -23,13 +23,12 @@ Adds the **Blue Crimson Guard** as its own standalone entity (`crimson-blue-guar
 - **Target Game:** Jak 2
 - **Repository:** [`whozghiar/jak2-mod-haven-city-rebellion`](https://github.com/whozghiar/jak2-mod-haven-city-rebellion) — Standalone blue-guard traffic + City Insurrection territorial civil war.
 
-### Branch Family
-| Branch | Description |
+### Mod Family
+| Repository | Description |
 |---|---|
-| `jak2/features/blueguard-traffic` | Base: `crimson-blue-guard` entity, faithful combat AI, ambient city-traffic spawning, modular hook layer |
-| `jak2/features/city-peaceful` | Neutral blue patrol **squads** — formation nav, mutual defense, friendly-fire immunity |
-| **`jak2/features/city-insurrection`** *(this mod)* | Full **territorial civil war** — district zoning, autonomous inter-faction combat, 22-guard war zones, artillery grenade launchers, alert-free zones |
-| `jak2/features/blueguard` | Integration of both modes (mutually exclusive at runtime via debug menu) |
+| [`whozghiar/jak2-mod-blue-krimzon-guard`](https://github.com/whozghiar/jak2-mod-blue-krimzon-guard) | Blue guards replacing red guards, identical behaviour, optional grenade launcher |
+| [`whozghiar/jak2-mod-peaceful-haven-city`](https://github.com/whozghiar/jak2-mod-peaceful-haven-city) | Neutral blue patrol **squads** — formation nav, mutual defense, friendly-fire immunity |
+| **`whozghiar/jak2-mod-haven-city-rebellion`** *(this mod)* | Full **territorial civil war** — district zoning, autonomous inter-faction combat, 22-guard war zones, artillery grenade launchers, alert-free zones |
 
 ---
 
