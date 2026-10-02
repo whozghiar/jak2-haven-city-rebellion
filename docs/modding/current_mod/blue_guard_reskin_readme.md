@@ -479,6 +479,12 @@ is the way to actually use it, if the budget above ever allows a third pool.
 > dies, halve `*mod-city-war-pool6-count*` / `*mod-city-war-pool4-count*` first — that isolates
 > "too much of everything" from a specific bad actor in two runs.
 
+## 10. Change log
+
+| Area | Change |
+|---|---|
+| Texture pack (2026-10-02) | `blue-kg-vehicles-textures-v1.0.0.zip` rebuilt from the current `custom_assets/jak2/texture_replacements/_all/` (10 PNGs, unchanged since the pack published from the mother repository) with `package_texture_pack.py --from-source`, committed under `docs/modding/current_mod/texture_packs/`, and registered in `index.json`: download URL and website now on this repository, SHA-256 `11f0e0fe...92d3`. The cover inside the zip is now Blue Krimzon Guard's `mod_cover.png`. The same archive ships with Blue Krimzon Guard and the other city mod. `release.yml` attaches it to the next release and rewrites its URL with the real tag. |
+
 ---
 *(AI-assisted)*
 
