@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "sourceName": "Haven City Rebellion Source",
-  "lastUpdated": "2026-10-02T13:47:12Z",
+  "lastUpdated": "2026-10-02T14:16:17Z",
   "mods": {
     "haven-city-rebellion": {
       "displayName": "Haven City Rebellion",
@@ -16,7 +16,7 @@
       "supportedGames": [
         "jak2"
       ],
-      "websiteUrl": "https://github.com/whozghiar/jak2-haven-city-rebellion",
+      "websiteUrl": "https://github.com/whozghiar/jak2-mod-haven-city-rebellion",
       "versions": [
         {
           "version": "1.0.0",
@@ -34,8 +34,8 @@
           }
         }
       ],
-      "coverArtUrl": "https://raw.githubusercontent.com/whozghiar/jak2-haven-city-rebellion/main/docs/img/mod/mod_cover.png",
-      "thumbnailArtUrl": "https://raw.githubusercontent.com/whozghiar/jak2-haven-city-rebellion/main/docs/img/mod/mod_cover.png"
+      "coverArtUrl": "https://raw.githubusercontent.com/whozghiar/jak2-mod-haven-city-rebellion/main/docs/img/mod/mod_cover.png",
+      "thumbnailArtUrl": "https://raw.githubusercontent.com/whozghiar/jak2-mod-haven-city-rebellion/main/docs/img/mod/mod_cover.png"
     }
   },
   "texturePacks": {
