@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "sourceName": "Haven City Rebellion Source",
-  "lastUpdated": "2026-10-02T21:46:28Z",
+  "lastUpdated": "2026-10-02T22:50:45Z",
   "mods": {
     "haven-city-rebellion": {
       "displayName": "Haven City Rebellion",
@@ -20,17 +20,17 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishedDate": "2026-09-17T22:56:30Z",
+          "publishedDate": "2026-10-02T22:50:45Z",
           "supportedGames": [
             "jak2"
           ],
           "assets": {
-            "windows": "https://github.com/whozghiar/jak-project/releases/download/haven-city-rebellion-v1.0.0/windows-haven-city-rebellion-v1.0.0.zip",
-            "linux": "https://github.com/whozghiar/jak-project/releases/download/haven-city-rebellion-v1.0.0/linux-haven-city-rebellion-v1.0.0.zip"
+            "windows": "https://github.com/whozghiar/jak2-mod-haven-city-rebellion/releases/download/haven-city-rebellion-v1.0.0/windows-haven-city-rebellion-v1.0.0.zip",
+            "linux": "https://github.com/whozghiar/jak2-mod-haven-city-rebellion/releases/download/haven-city-rebellion-v1.0.0/linux-haven-city-rebellion-v1.0.0.zip"
           },
           "checksums": {
-            "windows": "c815cc461bdd8d8ef753986f47ad94807d64af38bb608f8d61e3064b133e99c8",
-            "linux": "c47f52e2d6d4cd4fb14e87fabebede24d959526a1826e9b4a5213fbce36eb89c"
+            "windows": "041bd75e3482d7e4785f0d97b5634c89d6904bc383d7fb4561a90ff1000b5cd1",
+            "linux": "08b119c3b2c6bfe6181b6ab9b45716244dd6c0e76c2b7c4eed08e07016d6a2e6"
           }
         }
       ],
@@ -60,7 +60,7 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishedDate": "2026-10-02T21:46:22Z",
+          "publishedDate": "2026-10-02T22:50:45Z",
           "supportedGames": [
             "jak2"
           ],
@@ -68,11 +68,6 @@
             "windows": "https://github.com/whozghiar/jak2-mod-haven-city-rebellion/releases/download/haven-city-rebellion-v1.0.0/blue-kg-vehicles-textures-v1.0.0.zip",
             "linux": "https://github.com/whozghiar/jak2-mod-haven-city-rebellion/releases/download/haven-city-rebellion-v1.0.0/blue-kg-vehicles-textures-v1.0.0.zip",
             "jak2": "https://github.com/whozghiar/jak2-mod-haven-city-rebellion/releases/download/haven-city-rebellion-v1.0.0/blue-kg-vehicles-textures-v1.0.0.zip"
-          },
-          "checksums": {
-            "windows": "11f0e0fe2004b2737a8f7978c367c3699aa264249c4445872d655c12c94592d3",
-            "linux": "11f0e0fe2004b2737a8f7978c367c3699aa264249c4445872d655c12c94592d3",
-            "jak2": "11f0e0fe2004b2737a8f7978c367c3699aa264249c4445872d655c12c94592d3"
           }
         }
       ]
