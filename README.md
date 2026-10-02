@@ -27,7 +27,7 @@
 Adds the **Blue Crimson Guard** as its own standalone entity (`crimson-blue-guard`) with high-fidelity combat AI and custom textures, alongside the **City Insurrection** mode: a full-scale territorial civil war across Haven City between Baron Praxis's loyalist forces and the rebel blue guard insurgent faction.
 
 - **Target Game:** Jak 2
-- **Active Branch:** `jak2/features/city-insurrection` — Standalone blue-guard traffic + City Insurrection territorial civil war.
+- **Repository:** [`whozghiar/jak2-mod-haven-city-rebellion`](https://github.com/whozghiar/jak2-mod-haven-city-rebellion) — Standalone blue-guard traffic + City Insurrection territorial civil war.
 
 ### Branch Family
 | Branch | Description |
@@ -136,7 +136,7 @@ For complete technical notes, engine modifications, and architecture:
 Ce mod introduit le **Garde Crimson Bleu** en tant qu'entité autonome (`crimson-blue-guard`) dotée d'une IA de combat avancée et de textures dédiées, ainsi que le mode **City Insurrection** : une guerre civile territoriale à grande échelle dans Haven City opposant les forces loyalistes du Baron Praxis à l'insurrection des gardes bleus.
 
 - **Jeu Ciblé :** Jak 2
-- **Branche Active :** `jak2/features/city-insurrection` — Garde bleu autonome + mode guerre civile City Insurrection.
+- **Dépôt :** [`whozghiar/jak2-mod-haven-city-rebellion`](https://github.com/whozghiar/jak2-mod-haven-city-rebellion) — Garde bleu autonome + mode guerre civile City Insurrection.
 
 ### Famille de Branches
 | Branche | Description |
